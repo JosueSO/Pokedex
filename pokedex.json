@@ -1,0 +1,1606 @@
+{
+    "types": [
+        {
+            "id": 1,
+            "name": "NORMAL",
+            "color": "#837979"
+        },
+        {
+            "id": 2,
+            "name": "FIRE",
+            "color": "#c20000"
+        },
+        {
+            "id": 3,
+            "name": "WATER",
+            "color": "#375fff"
+        },
+        {
+            "id": 4,
+            "name": "ELECTRIC",
+            "color": "#ddce00"
+        },
+        {
+            "id": 5,
+            "name": "GRASS",
+            "color": "#56ff34"
+        },
+        {
+            "id": 6,
+            "name": "ICE",
+            "color": "#00a0d1"
+        },
+        {
+            "id": 7,
+            "name": "FIGHTING",
+            "color": "#863c1f"
+        },
+        {
+            "id": 8,
+            "name": "POISON",
+            "color": "#6c1974"
+        },
+        {
+            "id": 9,
+            "name": "GROUND",
+            "color": "#9b910d"
+        },
+        {
+            "id": 10,
+            "name": "FLYING",
+            "color": "#006199"
+        },
+        {
+            "id": 11,
+            "name": "PSYCHIC",
+            "color": "#d1008b"
+        },
+        {
+            "id": 12,
+            "name": "BUG",
+            "color": "#9ba596"
+        },
+        {
+            "id": 13,
+            "name": "ROCK",
+            "color": "#918254"
+        },
+        {
+            "id": 14,
+            "name": "GHOST",
+            "color": "#421688"
+        },
+        {
+            "id": 15,
+            "name": "DRAGON",
+            "color": "#3500b1"
+        },
+        {
+            "id": 16,
+            "name": "DARK",
+            "color": "#3d2f14"
+        },
+        {
+            "id": 17,
+            "name": "STEEL",
+            "color": "#8a8a8a"
+        },
+        {
+            "id": 18,
+            "name": "FAIRY",
+            "color": "#ad4196"
+        }
+    ],
+    "pokemons": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "type": [5, 8],
+            "cp": 1115,
+            "attack": 128,
+            "defense": 118,
+            "hp": 111,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/4/43/Bulbasaur.png"
+        },
+        {
+            "id": 2,
+            "name": "Ivysaur",
+            "type": [5, 8],
+            "cp": 1699,
+            "attack": 155,
+            "defense": 151,
+            "hp": 143,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/86/Ivysaur.png"
+        },
+        {
+            "id": 3,
+            "name": "Venusaur",
+            "type": [5, 8],
+            "cp": 2720,
+            "attack": 190,
+            "defense": 198,
+            "hp": 189,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/be/Venusaur.png"
+        },
+        {
+            "id": 4,
+            "name": "Charmander",
+            "type": [2],
+            "cp": 980,
+            "attack": 118,
+            "defense": 116,
+            "hp": 93,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/56/Charmander.png"
+        },
+        {
+            "id": 5,
+            "name": "Charmeleon",
+            "type": [2],
+            "cp": 1653,
+            "attack": 151,
+            "defense": 158,
+            "hp": 126,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/f/fb/Charmeleon.png"
+        },
+        {
+            "id": 6,
+            "name": "Charizard",
+            "type": [2, 10],
+            "cp": 2889,
+            "attack": 186,
+            "defense": 223,
+            "hp": 173,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/95/Charizard.png"
+        },
+        {
+            "id": 7,
+            "name": "Squirtle",
+            "type": [3],
+            "cp": 946,
+            "attack": 127,
+            "defense": 94,
+            "hp": 121,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/e/e3/Squirtle.png"
+        },
+        {
+            "id": 8,
+            "name": "Wartortle",
+            "type": [3],
+            "cp": 1488,
+            "attack": 153,
+            "defense": 126,
+            "hp": 155,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d7/Wartortle.png"
+        },
+        {
+            "id": 9,
+            "name": "Blastoise",
+            "type": [3],
+            "cp": 2466,
+            "attack": 188,
+            "defense": 171,
+            "hp": 207,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/4/41/Blastoise.png"
+        },
+        {
+            "id": 10,
+            "name": "Caterpie",
+            "type": [12],
+            "cp": 437,
+            "attack": 128,
+            "defense": 55,
+            "hp": 55,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/05/Caterpie.png"
+        },
+        {
+            "id": 11,
+            "name": "Metapod",
+            "type": [12],
+            "cp": 450,
+            "attack": 137,
+            "defense": 45,
+            "hp": 80,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/6/6b/Metapod.png"
+        },
+        {
+            "id": 12,
+            "name": "Butterfree",
+            "type": [12, 10],
+            "cp": 1827,
+            "attack": 155,
+            "defense": 167,
+            "hp": 137,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/96/Butterfree.png"
+        },
+        {
+            "id": 13,
+            "name": "Weedle",
+            "type": [12, 8],
+            "cp": 456,
+            "attack": 120,
+            "defense": 63,
+            "hp": 50,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d6/Weedle.png"
+        },
+        {
+            "id": 14,
+            "name": "Kakuna",
+            "type": [12, 8],
+            "cp": 432,
+            "attack": 128,
+            "defense": 46,
+            "hp": 75,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/6/63/Kakuna.png"
+        },
+        {
+            "id": 15,
+            "name": "Beedrill",
+            "type": [12, 8],
+            "cp": 1846,
+            "attack": 163,
+            "defense": 169,
+            "hp": 130,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/0d/Beedrill.png"
+        },
+        {
+            "id": 16,
+            "name": "Pidgey",
+            "type": [1, 10],
+            "cp": 680,
+            "attack": 120,
+            "defense": 85,
+            "hp": 73,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/b7/Pidgey.png"
+        },
+        {
+            "id": 17,
+            "name": "Pidgeotto",
+            "type": [1, 10],
+            "cp": 1194,
+            "attack": 160,
+            "defense": 117,
+            "hp": 105,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/57/Pidgeotto.png"
+        },
+        {
+            "id": 18,
+            "name": "Pidgeot",
+            "type": [1, 10],
+            "cp": 2129,
+            "attack": 195,
+            "defense": 166,
+            "hp": 154,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/a/a9/Pidgeot.png"
+        },
+        {
+            "id": 19,
+            "name": "Rattata",
+            "type": [1],
+            "cp": 734,
+            "attack": 102,
+            "defense": 103,
+            "hp": 70,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/c/c4/Rattata.png"
+        },
+        {
+            "id": 20,
+            "name": "Raticate",
+            "type": [1],
+            "cp": 1730,
+            "attack": 146,
+            "defense": 161,
+            "hp": 139,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d6/Raticate.png"
+        },
+        {
+            "id": 21,
+            "name": "Spearow",
+            "type": [1, 10],
+            "cp": 798,
+            "attack": 120,
+            "defense": 112,
+            "hp": 60,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/a/a1/Spearow.png"
+        },
+        {
+            "id": 22,
+            "name": "Fearow",
+            "type": [1, 10],
+            "cp": 1997,
+            "attack": 163,
+            "defense": 182,
+            "hp": 133,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/4/41/Fearow.png"
+        },
+        {
+            "id": 23,
+            "name": "Ekans",
+            "type": [8],
+            "cp": 927,
+            "attack": 111,
+            "defense": 110,
+            "hp": 97,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/1/11/Ekans.png"
+        },
+        {
+            "id": 24,
+            "name": "Arbok",
+            "type": [8],
+            "cp": 1921,
+            "attack": 155,
+            "defense": 167,
+            "hp": 153,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/4/4d/Arbok.png"
+        },
+        {
+            "id": 25,
+            "name": "Pikachu",
+            "type": [4],
+            "cp": 938,
+            "attack": 111,
+            "defense": 112,
+            "hp": 96,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/7/77/Pikachu.png"
+        },
+        {
+            "id": 26,
+            "name": "Raichu",
+            "type": [4],
+            "cp": 2182,
+            "attack": 155,
+            "defense": 193,
+            "hp": 151,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/3/34/Raichu.png"
+        },
+        {
+            "id": 27,
+            "name": "Sandshrew",
+            "type": [9],
+            "cp": 1261,
+            "attack": 137,
+            "defense": 126,
+            "hp": 120,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/df/Sandshrew.png"
+        },
+        {
+            "id": 28,
+            "name": "Sandslash",
+            "type": [9],
+            "cp": 1261,
+            "attack": 181,
+            "defense": 182,
+            "hp": 175,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/1/13/Sandslash.png"
+        },
+        {
+            "id": 29,
+            "name": "Nidoran",
+            "type": [8],
+            "cp": 816,
+            "attack": 146,
+            "defense": 86,
+            "hp": 89,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/c/c8/Nidoran♀.png"
+        },
+        {
+            "id": 30,
+            "name": "Nidorina",
+            "type": [8],
+            "cp": 1309,
+            "attack": 172,
+            "defense": 117,
+            "hp": 120,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/3/31/Nidorina.png"
+        },
+        {
+            "id": 31,
+            "name": "Nidoqueen",
+            "type": [8, 9],
+            "cp": 2488,
+            "attack": 207,
+            "defense": 180,
+            "hp": 173,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/4/43/Nidoqueen.png"
+        },
+        {
+            "id": 32,
+            "name": "Nidoran",
+            "type": [8],
+            "cp": 860,
+            "attack": 130,
+            "defense": 105,
+            "hp": 76,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/6/60/Nidoran♂.png"
+        },
+        {
+            "id": 33,
+            "name": "Nidorino",
+            "type": [8],
+            "cp": 1393,
+            "attack": 156,
+            "defense": 137,
+            "hp": 111,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/7/7a/Nidorino.png"
+        },
+        {
+            "id": 34,
+            "name": "Nidoking",
+            "type": [8, 9],
+            "cp": 2567,
+            "attack": 191,
+            "defense": 204,
+            "hp": 156,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/7/76/Nidoking.png"
+        },
+        {
+            "id": 35,
+            "name": "Clefairy",
+            "type": [18],
+            "cp": 1155,
+            "attack": 172,
+            "defense": 107,
+            "hp": 108,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d2/Clefairy.png"
+        },
+        {
+            "id": 36,
+            "name": "Clefable",
+            "type": [18],
+            "cp": 2437,
+            "attack": 216,
+            "defense": 178,
+            "hp": 162,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d5/Clefable.png"
+        },
+        {
+            "id": 37,
+            "name": "Vulpix",
+            "type": [2],
+            "cp": 883,
+            "attack": 116,
+            "defense": 96,
+            "hp": 109,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/8d/Vulpix.png"
+        },
+        {
+            "id": 38,
+            "name": "Ninetales",
+            "type": [2],
+            "cp": 2279,
+            "attack": 177,
+            "defense": 169,
+            "hp": 190,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/98/Ninetales.png"
+        },
+        {
+            "id": 39,
+            "name": "Jigglypuff",
+            "type": [1, 18],
+            "cp": 724,
+            "attack": 251,
+            "defense": 80,
+            "hp": 41,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/a/af/Jigglypuff.png"
+        },
+        {
+            "id": 40,
+            "name": "Wigglytuff",
+            "type": [1, 18],
+            "cp": 1926,
+            "attack": 295,
+            "defense": 156,
+            "hp": 90,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/f/f1/Wigglytuff.png"
+        },
+        {
+            "id": 41,
+            "name": "Zubat",
+            "type": [8, 10],
+            "cp": 667,
+            "attack": 120,
+            "defense": 83,
+            "hp": 73,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/6/67/Zubat.png"
+        },
+        {
+            "id": 42,
+            "name": "Golbat",
+            "type": [8, 10],
+            "cp": 1976,
+            "attack": 181,
+            "defense": 161,
+            "hp": 150,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/2/2c/Golbat.png"
+        },
+        {
+            "id": 43,
+            "name": "Oddish",
+            "type": [5, 8],
+            "cp": 1228,
+            "attack": 128,
+            "defense": 131,
+            "hp": 112,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d9/Oddish.png"
+        },
+        {
+            "id": 44,
+            "name": "Gloom",
+            "type": [5, 8],
+            "cp": 1681,
+            "attack": 155,
+            "defense": 153,
+            "hp": 136,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/59/Gloom.png"
+        },
+        {
+            "id": 45,
+            "name": "Vileplum",
+            "type": [5, 8],
+            "cp": 2559,
+            "attack": 181,
+            "defense": 202,
+            "hp": 167,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/3/32/Vileplume.png"
+        },
+        {
+            "id": 46,
+            "name": "Paras",
+            "type": [12, 5],
+            "cp": 1018,
+            "attack": 111,
+            "defense": 121,
+            "hp": 99,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/e/ee/Paras.png"
+        },
+        {
+            "id": 47,
+            "name": "Parasect",
+            "type": [12, 5],
+            "cp": 1859,
+            "attack": 155,
+            "defense": 165,
+            "hp": 146,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/6/62/Parasect.png"
+        },
+        {
+            "id": 48,
+            "name": "Venonat",
+            "type": [12, 8],
+            "cp": 1004,
+            "attack": 155,
+            "defense": 100,
+            "hp": 100,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d3/Venonat.png"
+        },
+        {
+            "id": 49,
+            "name": "Venomoth",
+            "type": [12, 8],
+            "cp": 2082,
+            "attack": 172,
+            "defense": 179,
+            "hp": 143,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/c/c2/Venomoth.png"
+        },
+        {
+            "id": 50,
+            "name": "Diglett",
+            "type": [9],
+            "cp": 676,
+            "attack": 67,
+            "defense": 109,
+            "hp": 78,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/7/7a/Diglett.png"
+        },
+        {
+            "id": 51,
+            "name": "Dugtrio",
+            "type": [9],
+            "cp": 1557,
+            "attack": 111,
+            "defense": 167,
+            "hp": 134,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/8b/Dugtrio.png"
+        },
+        {
+            "id": 52,
+            "name": "Meowth",
+            "type": [1],
+            "cp": 748,
+            "attack": 120,
+            "defense": 92,
+            "hp": 78,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/99/Meowth.png"
+        },
+        {
+            "id": 53,
+            "name": "Persian",
+            "type": [1],
+            "cp": 1689,
+            "attack": 163,
+            "defense": 150,
+            "hp": 136,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/b3/Persian.png"
+        },
+        {
+            "id": 54,
+            "name": "Psyduck",
+            "type": [3],
+            "cp": 1106,
+            "attack": 137,
+            "defense": 12,
+            "hp": 95,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/3/32/Psyduck.png"
+        },
+        {
+            "id": 55,
+            "name": "Golduck",
+            "type": [3],
+            "cp": 2450,
+            "attack": 190,
+            "defense": 191,
+            "hp": 162,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/c/cf/Golduck.png"
+        },
+        {
+            "id": 56,
+            "name": "Mankey",
+            "type": [7],
+            "cp": 1164,
+            "attack": 120,
+            "defense": 148,
+            "hp": 82,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/8b/Mankey.png"
+        },
+        {
+            "id": 57,
+            "name": "Primeape",
+            "type": [7],
+            "cp": 2288,
+            "attack": 163,
+            "defense": 207,
+            "hp": 138,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/e/e0/Primeape.png"
+        },
+        {
+            "id": 58,
+            "name": "Growlithe",
+            "type": [2],
+            "cp": 1243,
+            "attack": 146,
+            "defense": 136,
+            "hp": 93,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/bb/Growlithe.png"
+        },
+        {
+            "id": 59,
+            "name": "Arcanine",
+            "type": [2],
+            "cp": 3029,
+            "attack": 207,
+            "defense": 227,
+            "hp": 166,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/50/Arcanine.png"
+        },
+        {
+            "id": 60,
+            "name": "Poliwag",
+            "type": [3],
+            "cp": 829,
+            "attack": 120,
+            "defense": 101,
+            "hp": 82,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/90/Poliwag.png"
+        },
+        {
+            "id": 61,
+            "name": "Poliwhirl",
+            "type": [3],
+            "cp": 1419,
+            "attack": 163,
+            "defense": 130,
+            "hp": 123,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/2/24/Poliwhirl.png"
+        },
+        {
+            "id": 62,
+            "name": "Poliwrath",
+            "type": [3, 7],
+            "cp": 2586,
+            "attack": 207,
+            "defense": 182,
+            "hp": 184,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/85/Poliwrath.png"
+        },
+        {
+            "id": 63,
+            "name": "Abra",
+            "type": [11],
+            "cp": 1342,
+            "attack": 93,
+            "defense": 195,
+            "hp": 82,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/f/f6/Abra.png"
+        },
+        {
+            "id": 64,
+            "name": "Kadabra",
+            "type": [11],
+            "cp": 2059,
+            "attack": 120,
+            "defense": 232,
+            "hp": 117,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/b0/Kadabra.png"
+        },
+        {
+            "id": 65,
+            "name": "Alakazam",
+            "type": [11],
+            "cp": 3057,
+            "attack": 146,
+            "defense": 271,
+            "hp": 167,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/f/f5/Alakazam.png"
+        },
+        {
+            "id": 66,
+            "name": "Machop",
+            "type": [7],
+            "cp": 1278,
+            "attack": 172,
+            "defense": 137,
+            "hp": 82,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/2/2b/Machop.png"
+        },
+        {
+            "id": 67,
+            "name": "Machoke",
+            "type": [7],
+            "cp": 2031,
+            "attack": 190,
+            "defense": 177,
+            "hp": 125,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/c/ca/Machoke.png"
+        },
+        {
+            "id": 68,
+            "name": "Machamp",
+            "type": [7],
+            "cp": 3056,
+            "attack": 207,
+            "defense": 234,
+            "hp": 159,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/bf/Machamp.png"
+        },
+        {
+            "id": 69,
+            "name": "Bellsprout",
+            "type": [5, 8],
+            "cp": 1033,
+            "attack": 137,
+            "defense": 139,
+            "hp": 61,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d1/Bellsprout.png"
+        },
+        {
+            "id": 70,
+            "name": "Weepinbell",
+            "type": [5, 8],
+            "cp": 1611,
+            "attack": 163,
+            "defense": 172,
+            "hp": 92,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/f/f9/Weepinbell.png"
+        },
+        {
+            "id": 71,
+            "name": "Victreebel",
+            "type": [5, 8],
+            "cp": 2431,
+            "attack": 190,
+            "defense": 207,
+            "hp": 135,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/55/Victreebel.png"
+        },
+        {
+            "id": 72,
+            "name": "Tentacool",
+            "type": [3, 8],
+            "cp": 1040,
+            "attack": 120,
+            "defense": 97,
+            "hp": 149,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/4/43/Tentacool.png"
+        },
+        {
+            "id": 73,
+            "name": "Tentacruel",
+            "type": [3, 8],
+            "cp": 2422,
+            "attack": 190,
+            "defense": 166,
+            "hp": 209,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/7/78/Tentacruel.png"
+        },
+        {
+            "id": 74,
+            "name": "Geodude",
+            "type": [13, 9],
+            "cp": 1293,
+            "attack": 120,
+            "defense": 132,
+            "hp": 132,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/1/12/Geodude.png"
+        },
+        {
+            "id": 75,
+            "name": "Graveler",
+            "type": [13, 9],
+            "cp": 1897,
+            "attack": 146,
+            "defense": 164,
+            "hp": 164,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/b6/Graveler.png"
+        },
+        {
+            "id": 76,
+            "name": "Golem",
+            "type": [13, 9],
+            "cp": 2949,
+            "attack": 190,
+            "defense": 211,
+            "hp": 198,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/c/ce/Golem.png"
+        },
+        {
+            "id": 77,
+            "name": "Ponyta",
+            "type": [2],
+            "cp": 1697,
+            "attack": 137,
+            "defense": 170,
+            "hp": 127,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/5f/Ponyta.png"
+        },
+        {
+            "id": 78,
+            "name": "Rapidash",
+            "type": [2],
+            "cp": 2461,
+            "attack": 163,
+            "defense": 207,
+            "hp": 162,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/01/Rapidash.png"
+        },
+        {
+            "id": 79,
+            "name": "Slowpoke",
+            "type": [3, 11],
+            "cp": 1226,
+            "attack": 207,
+            "defense": 109,
+            "hp": 98,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/9b/Slowpoke.png"
+        },
+        {
+            "id": 80,
+            "name": "Slowbro",
+            "type": [3, 11],
+            "cp": 2545,
+            "attack": 216,
+            "defense": 177,
+            "hp": 180,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/e/e1/Slowbro.png"
+        },
+        {
+            "id": 81,
+            "name": "Magnemite",
+            "type": [4, 17],
+            "cp": 1362,
+            "attack": 93,
+            "defense": 165,
+            "hp": 121,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/80/Magnemite.png"
+        },
+        {
+            "id": 82,
+            "name": "Magneton",
+            "type": [4, 17],
+            "cp": 2485,
+            "attack": 137,
+            "defense": 223,
+            "hp": 169,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d1/Magneton.png"
+        },
+        {
+            "id": 83,
+            "name": "Fargetch'd",
+            "type": [1, 10],
+            "cp": 1236,
+            "attack": 141,
+            "defense": 124,
+            "hp": 115,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/b5/Farfetch%27d.png"
+        },
+        {
+            "id": 84,
+            "name": "Doduo",
+            "type": [1, 10],
+            "cp": 1200,
+            "attack": 111,
+            "defense": 158,
+            "hp": 83,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/9c/Doduo.png"
+        },
+        {
+            "id": 85,
+            "name": "Dodrio",
+            "type": [1, 10],
+            "cp": 2362,
+            "attack": 155,
+            "defense": 218,
+            "hp": 140,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/1/1a/Dodrio.png"
+        },
+        {
+            "id": 86,
+            "name": "Seel",
+            "type": [3],
+            "cp": 971,
+            "attack": 163,
+            "defense": 85,
+            "hp": 121,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/f/f1/Seel.png"
+        },
+        {
+            "id": 87,
+            "name": "Dewgong",
+            "type": [3, 6],
+            "cp": 1985,
+            "attack": 207,
+            "defense": 139,
+            "hp": 177,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/1/1d/Dewgong.png"
+        },
+        {
+            "id": 88,
+            "name": "Grimer",
+            "type": [8],
+            "cp": 1374,
+            "attack": 190,
+            "defense": 135,
+            "hp": 90,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d7/Grimer.png"
+        },
+        {
+            "id": 89,
+            "name": "Muk",
+            "type": [8],
+            "cp": 2757,
+            "attack": 233,
+            "defense": 190,
+            "hp": 172,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/8e/Muk.png"
+        },
+        {
+            "id": 90,
+            "name": "Shellder",
+            "type": [3],
+            "cp": 1080,
+            "attack": 102,
+            "defense": 116,
+            "hp": 134,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/6/63/Shellder.png"
+        },
+        {
+            "id": 91,
+            "name": "Cloyster",
+            "type": [3, 6],
+            "cp": 2547,
+            "attack": 137,
+            "defense": 186,
+            "hp": 256,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/7/71/Cloyster.png"
+        },
+        {
+            "id": 92,
+            "name": "Gastly",
+            "type": [14, 8],
+            "cp": 1229,
+            "attack": 102,
+            "defense": 186,
+            "hp": 67,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/c/c1/Gastly.png"
+        },
+        {
+            "id": 93,
+            "name": "Haunter",
+            "type": [14, 8],
+            "cp": 1963,
+            "attack": 128,
+            "defense": 223,
+            "hp": 107,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/4/41/Haunter.png"
+        },
+        {
+            "id": 94,
+            "name": "Gengar",
+            "type": [14, 8],
+            "cp": 2878,
+            "attack": 155,
+            "defense": 261,
+            "hp": 149,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/f/f8/Gengar.png"
+        },
+        {
+            "id": 95,
+            "name": "Onix",
+            "type": [13, 9],
+            "cp": 1101,
+            "attack": 111,
+            "defense": 85,
+            "hp": 232,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/b2/Onix.png"
+        },
+        {
+            "id": 96,
+            "name": "Drowzee",
+            "type": [11],
+            "cp": 1040,
+            "attack": 155,
+            "defense": 89,
+            "hp": 136,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/5d/Drowzee.png"
+        },
+        {
+            "id": 97,
+            "name": "Hypno",
+            "type": [11],
+            "cp": 2090,
+            "attack": 198,
+            "defense": 144,
+            "hp": 193,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/0e/Hypno.png"
+        },
+        {
+            "id": 98,
+            "name": "Krabby",
+            "type": [3],
+            "cp": 1561,
+            "attack": 102,
+            "defense": 181,
+            "hp": 124,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/da/Krabby.png"
+        },
+        {
+            "id": 99,
+            "name": "Kingler",
+            "type": [3],
+            "cp": 2829,
+            "attack": 146,
+            "defense": 240,
+            "hp": 181,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/a/a4/Kingler.png"
+        },
+        {
+            "id": 100,
+            "name": "Voltorb",
+            "type": [4],
+            "cp": 1010,
+            "attack": 120,
+            "defense": 109,
+            "hp": 111,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/80/Voltorb.png"
+        },
+        {
+            "id": 101,
+            "name": "Electrode",
+            "type": [4],
+            "cp": 2099,
+            "attack": 155,
+            "defense": 173,
+            "hp": 173,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/52/Electrode.png"
+        },
+        {
+            "id": 102,
+            "name": "Exeggcute",
+            "type": [5, 11],
+            "cp": 1175,
+            "attack": 155,
+            "defense": 107,
+            "hp": 125,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/5f/Exeggcute.png"
+        },
+        {
+            "id": 103,
+            "name": "Exeggutor",
+            "type": [5, 11],
+            "cp": 3014,
+            "attack": 216,
+            "defense": 233,
+            "hp": 149,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/e/e0/Exeggutor.png"
+        },
+        {
+            "id": 104,
+            "name": "Cubone",
+            "type": [9],
+            "cp": 1019,
+            "attack": 137,
+            "defense": 90,
+            "hp": 144,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/6/65/Cubone.png"
+        },
+        {
+            "id": 105,
+            "name": "Marowak",
+            "type": [9],
+            "cp": 1835,
+            "attack": 155,
+            "defense": 144,
+            "hp": 186,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/c/c4/Marowak.png"
+        },
+        {
+            "id": 106,
+            "name": "Hitmonlee",
+            "type": [7],
+            "cp": 2576,
+            "attack": 137,
+            "defense": 224,
+            "hp": 181,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/0f/Hitmonlee.png"
+        },
+        {
+            "id": 107,
+            "name": "Hitmonchan",
+            "type": [7],
+            "cp": 2332,
+            "attack": 137,
+            "defense": 193,
+            "hp": 197,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/7/73/Hitmonchan.png"
+        },
+        {
+            "id": 108,
+            "name": "Lickitung",
+            "type": [1],
+            "cp": 1411,
+            "attack": 207,
+            "defense": 108,
+            "hp": 137,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/a/ab/Lickitung.png"
+        },
+        {
+            "id": 109,
+            "name": "Koffing",
+            "type": [8],
+            "cp": 1214,
+            "attack": 120,
+            "defense": 119,
+            "hp": 141,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/b2/Koffing.png"
+        },
+        {
+            "id": 110,
+            "name": "Weezing",
+            "type": [8],
+            "cp": 2293,
+            "attack": 163,
+            "defense": 174,
+            "hp": 197,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/88/Weezing.png"
+        },
+        {
+            "id": 111,
+            "name": "Rhyhorn",
+            "type": [9, 13],
+            "cp": 1651,
+            "attack": 190,
+            "defense": 140,
+            "hp": 127,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/3/36/Rhyhorn.png"
+        },
+        {
+            "id": 112,
+            "name": "Rhydon",
+            "type": [9, 13],
+            "cp": 3179,
+            "attack": 233,
+            "defense": 222,
+            "hp": 171,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/01/Rhydon.png"
+        },
+        {
+            "id": 113,
+            "name": "Chansey",
+            "type": [1],
+            "cp": 1255,
+            "attack": 487,
+            "defense": 60,
+            "hp": 128,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/2/2b/Chansey.png"
+        },
+        {
+            "id": 114,
+            "name": "Tangela",
+            "type": [5],
+            "cp": 2238,
+            "attack": 163,
+            "defense": 183,
+            "hp": 169,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/03/Tangela.png"
+        },
+        {
+            "id": 115,
+            "name": "Kangaskhan",
+            "type": [1],
+            "cp": 2586,
+            "attack": 233,
+            "defense": 181,
+            "hp": 165,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/3/39/Kangaskhan.png"
+        },
+        {
+            "id": 116,
+            "name": "Horsea",
+            "type": [3],
+            "cp": 1056,
+            "attack": 102,
+            "defense": 129,
+            "hp": 103,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/6/6c/Horsea.png"
+        },
+        {
+            "id": 117,
+            "name": "Seadra",
+            "type": [3],
+            "cp": 2093,
+            "attack": 146,
+            "defense": 187,
+            "hp": 156,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/2/2d/Seadra.png"
+        },
+        {
+            "id": 118,
+            "name": "Goldeen",
+            "type": [3],
+            "cp": 1152,
+            "attack": 128,
+            "defense": 123,
+            "hp": 110,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/99/Goldeen.png"
+        },
+        {
+            "id": 119,
+            "name": "Seaking",
+            "type": [3],
+            "cp": 2162,
+            "attack": 190,
+            "defense": 175,
+            "hp": 147,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/8/8b/Seaking.png"
+        },
+        {
+            "id": 120,
+            "name": "Staryu",
+            "type": [3],
+            "cp": 1157,
+            "attack": 102,
+            "defense": 137,
+            "hp": 112,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/e/e8/Staryu.png"
+        },
+        {
+            "id": 121,
+            "name": "Starmie",
+            "type": [3, 11],
+            "cp": 2584,
+            "attack": 155,
+            "defense": 210,
+            "hp": 184,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/56/Starmie.png"
+        },
+        {
+            "id": 122,
+            "name": "Mr. Mine",
+            "type": [3],
+            "cp": 2228,
+            "attack": 120,
+            "defense": 192,
+            "hp": 205,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/4/4f/Mr._Mime.png"
+        },
+        {
+            "id": 123,
+            "name": "Scyther",
+            "type": [12, 10],
+            "cp": 2706,
+            "attack": 172,
+            "defense": 218,
+            "hp": 170,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/c/c2/Scyther.png"
+        },
+        {
+            "id": 124,
+            "name": "Jynx",
+            "type": [6, 11],
+            "cp": 2555,
+            "attack": 163,
+            "defense": 223,
+            "hp": 151,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/e/e2/Jynx.png"
+        },
+        {
+            "id": 125,
+            "name": "Electabuzz",
+            "type": [4],
+            "cp": 2334,
+            "attack": 163,
+            "defense": 198,
+            "hp": 158,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/3/3a/Electabuzz.png"
+        },
+        {
+            "id": 126,
+            "name": "Magmar",
+            "type": [2],
+            "cp": 2394,
+            "attack": 163,
+            "defense": 206,
+            "hp": 154,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/4/46/Magmar.png"
+        },
+        {
+            "id": 127,
+            "name": "Pinsir",
+            "type": [12],
+            "cp": 2959,
+            "attack": 163,
+            "defense": 238,
+            "hp": 182,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/b4/Pinsir.png"
+        },
+        {
+            "id": 128,
+            "name": "Tauros",
+            "type": [1],
+            "cp": 2620,
+            "attack": 181,
+            "defense": 198,
+            "hp": 183,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/98/Tauros.png"
+        },
+        {
+            "id": 129,
+            "name": "Magikarp",
+            "type": [3],
+            "cp": 274,
+            "attack": 85,
+            "defense": 29,
+            "hp": 85,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/01/Magikarp.png"
+        },
+        {
+            "id": 130,
+            "name": "Gyarados",
+            "type": [3, 10],
+            "cp": 3391,
+            "attack": 216,
+            "defense": 237,
+            "hp": 186,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d7/Gyarados.png"
+        },
+        {
+            "id": 131,
+            "name": "Lapras",
+            "type": [3, 6],
+            "cp": 2641,
+            "attack": 277,
+            "defense": 165,
+            "hp": 174,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/3/30/Lapras.png"
+        },
+        {
+            "id": 132,
+            "name": "Ditto",
+            "type": [1],
+            "cp": 832,
+            "attack": 134,
+            "defense": 91,
+            "hp": 91,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/03/Ditto.png"
+        },
+        {
+            "id": 133,
+            "name": "Eevee",
+            "type": [1],
+            "cp": 1071,
+            "attack": 146,
+            "defense": 104,
+            "hp": 114,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/f/f2/Eevee.png"
+        },
+        {
+            "id": 134,
+            "name": "Vaporeon",
+            "type": [3],
+            "cp": 3114,
+            "attack": 277,
+            "defense": 205,
+            "hp": 161,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/f/fc/Vaporeon.png"
+        },
+        {
+            "id": 135,
+            "name": "Jolteon",
+            "type": [4],
+            "cp": 2888,
+            "attack": 163,
+            "defense": 232,
+            "hp": 182,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/1/1e/Jolteon.png"
+        },
+        {
+            "id": 136,
+            "name": "Flareon",
+            "type": [2],
+            "cp": 3029,
+            "attack": 163,
+            "defense": 246,
+            "hp": 179,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/1/17/Flareon.png"
+        },
+        {
+            "id": 137,
+            "name": "Porygon",
+            "type": [1],
+            "cp": 1720,
+            "attack": 163,
+            "defense": 153,
+            "hp": 136,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/2/2d/Porygon.png"
+        },
+        {
+            "id": 138,
+            "name": "Omanyte",
+            "type": [13, 3],
+            "cp": 1544,
+            "attack": 111,
+            "defense": 155,
+            "hp": 153,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/a/a4/Omanyte.png"
+        },
+        {
+            "id": 139,
+            "name": "Omastar",
+            "type": [13, 3],
+            "cp": 2786,
+            "attack": 172,
+            "defense": 207,
+            "hp": 201,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/97/Omastar.png"
+        },
+        {
+            "id": 140,
+            "name": "Kabuto",
+            "type": [13, 3],
+            "cp": 1370,
+            "attack": 102,
+            "defense": 148,
+            "hp": 140,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/a/a1/Kabuto.png"
+        },
+        {
+            "id": 141,
+            "name": "Kabutops",
+            "type": [13, 3],
+            "cp": 2713,
+            "attack": 155,
+            "defense": 220,
+            "hp": 186,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/7/72/Kabutops.png"
+        },
+        {
+            "id": 142,
+            "name": "Aerodactyl",
+            "type": [13, 10],
+            "cp": 2783,
+            "attack": 190,
+            "defense": 221,
+            "hp": 159,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/e/e6/Aerodactyl.png"
+        },
+        {
+            "id": 143,
+            "name": "Snorlax",
+            "type": [1],
+            "cp": 3225,
+            "attack": 330,
+            "defense": 190,
+            "hp": 169,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/0b/Snorlax.png"
+        },
+        {
+            "id": 144,
+            "name": "Articuno",
+            "type": [6, 10],
+            "cp": 3051,
+            "attack": 207,
+            "defense": 192,
+            "hp": 236,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/52/Articuno.png"
+        },
+        {
+            "id": 145,
+            "name": "Zapdos",
+            "type": [4, 10],
+            "cp": 3527,
+            "attack": 207,
+            "defense": 253,
+            "hp": 183,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d8/Zapdos.png"
+        },
+        {
+            "id": 146,
+            "name": "Moltres",
+            "type": [2, 10],
+            "cp": 3465,
+            "attack": 207,
+            "defense": 251,
+            "hp": 181,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/0/01/Moltres.png"
+        },
+        {
+            "id": 147,
+            "name": "Dratini",
+            "type": [15],
+            "cp": 1004,
+            "attack": 121,
+            "defense": 119,
+            "hp": 91,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/9/99/Dratini.png"
+        },
+        {
+            "id": 148,
+            "name": "Dragonair",
+            "type": [15],
+            "cp": 1780,
+            "attack": 156,
+            "defense": 163,
+            "hp": 135,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/5/5a/Dragonair.png"
+        },
+        {
+            "id": 149,
+            "name": "Dragonite",
+            "type": [15, 10],
+            "cp": 3792,
+            "attack": 209,
+            "defense": 263,
+            "hp": 198,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/a/a6/Dragonite.png"
+        },
+        {
+            "id": 150,
+            "name": "Mewtwo",
+            "type": [11],
+            "cp": 4178,
+            "attack": 214,
+            "defense": 300,
+            "hp": 182,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/d/d3/Mewtwo.png"
+        },
+        {
+            "id": 151,
+            "name": "Mew",
+            "type": [11],
+            "cp": 3265,
+            "attack": 225,
+            "defense": 210,
+            "hp": 210,
+            "sprite": "https://vignette.wikia.nocookie.net/es.pokemon/images/b/bf/Mew.png"
+        }
+    ]
+}
