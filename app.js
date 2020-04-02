@@ -125,4 +125,5 @@ function loadPokemon(poke_id) {
     </h3>`;
 
     poke_info.innerHTML = html;
+    poke_area.scrollIntoView();
 }
